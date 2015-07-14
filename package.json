@@ -9,7 +9,7 @@
     "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 200 test/*.js",
     "jscs": "jscs lib && jscs test"
   },
-  "repository": "coderhaoxin/gulp-file-include",
+  "repository": "yiyangzhang/gulp-file-include",
   "keywords": [
     "gulpplugin",
     "file",
@@ -25,8 +25,8 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
     "gulp-file-include": "*"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
