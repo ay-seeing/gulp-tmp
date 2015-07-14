@@ -1,3 +1,5 @@
+// https://github.com/coderhaoxin/gulp-file-include
+
 var gulp = require('gulp'),
 fileinclude = require('gulp-file-include');
 
